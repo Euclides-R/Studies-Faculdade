@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/graduation-cap.svg" />
+    <title>FolhaCPA</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleLogin.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a9ee1470bf.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <section class="corpo">
+      <nav class="menu">
+        <div class="logo">
+          <h1>folha<b>cpa</b></h1>
+          <p>Pesquisa de Satisfação entre alunos</p>
+        </div>
+        <div class="menu__link">
+          <a href="index.html" class="menu__link--pageApp"
+            ><img src="icons/home.svg" /> Home</a
+          >
+          <a href="downapp.html" class="menu__link--pageApp"
+            ><img src="icons/smartphone.svg" /> Baixe o app</a
+          >
+          <a href="#" class="menu__user"><i class="far fa-user"></i></a>
+        </div>
+      </nav>
+    </section>
+    <section class="section__first">
+      <div class="box__orange">
+        <div class="box__orange--cad">
+          <h3>Não tem uma conta?</h3>
+          <button class="btn__cad">Cadastre-se</button>
+        </div>
+        <div class="box__orange--login">
+          <h3>Já possui Login?</h3>
+          <button class="btn__login">Login</button>
+        </div>
+      </div>
+      <div class="box__login box__login--animation">
+        <div class="login__area ">
+          <div class="login__area--logo">
+            <img src="img/graduation-cap.svg" />
+            <div class="logo">
+              <h1>folha<b>cpa</b></h1>
+              <p style="color: #f5f5f5">Pesquisa de Satisfação entre alunos</p>
+            </div>
+          </div>
+          <div class="login__area--inputs">
+            <h1>Login</h1>
+            <div class="login__area--user">
+              Email
+              <input type="text" placeholder="joaoalencar@email.com" />
+            </div>
+            <div class="login__area--password">
+              Senha
+              <input type="password" placeholder="password" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box__cad">
+        <div class="login__area--logo">
+          <img src="img/graduation-cap.svg" />
+          <div class="logo">
+            <h1>folha<b>cpa</b></h1>
+            <p style="color: #f5f5f5">Pesquisa de Satisfação entre alunos</p>
+          </div>
+        </div>
+        <h1 style="padding: 20px; text-align: center;">Cadastre-se</h1>
+        <div class="box__cad--align">
+        <div class="login__area--cadCamp">
+            Nome
+            <input type="text" placeholder="Nome" id="name"/>
+          </div>
+          <div class="login__area--cadCamp">
+            Sobrenome
+            <input type="text" placeholder="Sobrenome" id="lastName" />
+          </div> 
+          <div class="login__area--cadCamp">
+            Período
+            <input type="text" placeholder="Período" id="period" />
+          </div>
+          <div class="login__area--cadCamp">
+            Email
+            <input type="text" placeholder="joaoalencar@email.com" id="email" />
+          </div>
+          <div class="login__area--cadCamp">
+            Senha
+            <input type="password" placeholder="password" id="password"/>
+          </div>
+          <div class="login__area--cadCamp">
+            Confirmar Senha
+            <input type="password" placeholder="password" id="passwordConfirm"/>
+          </div>
+          <button class="openAccount">Cadastrar-se</button>
+      </div>
+    </section>
+    <script type="text/javascript" src="script/script.js"></script>
+  </body>
+</html>

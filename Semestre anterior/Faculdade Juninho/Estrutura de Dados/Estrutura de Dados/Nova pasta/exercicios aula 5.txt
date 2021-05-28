@@ -1,0 +1,7 @@
+UTILIZANDO PONTEIRO:
+
+Escreva um programa que receba dois valores e imprima na tela estes valores invertidos.
+
+Escreva um programa que receba cinco valores em um vetor e imprima na tela a soma destes valores.
+
+Escreva um programa que receba cinco valores em um vetor e imprima na tela o maior e o menor valor deste vetor

@@ -1,0 +1,58 @@
+	***CADASTRO DE ALUNOS***
+
+ID: 1
+Nome: Euclides Rodrigues Junior
+Nota 1: 8.5
+Nota 2: 7.5
+Nota 3: 6.2
+Maior Nota: 8.5
+M�dia das maiores notas: 8
+Status: APROVADO
+
+ID: 2
+Nome: Emilio Santiago
+Nota 1: 7.5
+Nota 2: 6.5
+Nota 3: 2
+Maior Nota: 7.5
+M�dia das maiores notas: 7
+Status: APROVADO
+
+ID: 3
+Nome: Marlos Fabiano do Carmo
+Nota 1: 7.8
+Nota 2: 1.4
+Nota 3: 0.3
+Maior Nota: 7.8
+M�dia das maiores notas: 4.6
+Status: REPROVADO
+
+ID: 4
+Nome: 9.2
+Nota 1: 0
+Nota 2: 0
+Nota 3: 0
+Maior Nota: 0
+M�dia das maiores notas: 0
+Status: REPROVADO
+
+ID: 5
+Nome: 
+Nota 1: 0
+Nota 2: 0
+Nota 3: 0
+Maior Nota: 0
+M�dia das maiores notas: 0
+Status: REPROVADO
+
+M�dias Ordenadas
+ID: 1 M�dia: 8
+ID: 2 M�dia: 7
+ID: 3 M�dia: 4.6
+ID: 4 M�dia: 0
+ID: 5 M�dia: 0
+
+Alunos Reprovados
+ID: 3 Aluno: Marlos Fabiano do Carmo
+ID: 4 Aluno: 9.2
+ID: 5 Aluno: 

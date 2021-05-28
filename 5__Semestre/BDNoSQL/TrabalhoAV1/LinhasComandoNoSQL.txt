@@ -1,0 +1,260 @@
+* aeronaves * db.aeronaves.insert([
+  {
+    "codigo_ocorrencia": "2,01106E+14",
+    "aeronave_matricula": "PPGXE",
+    "aeronave_operador_categoria": "AEROCLUBE",
+    "aeronave_tipo_veiculo": "AVIÃƒO",
+    "aeronave_fabricante": "NEIVA INDUSTRIA AERONAUTICA"
+  },
+  {
+    "codigo_ocorrencia": "2,01205E+14",
+    "aeronave_matricula": "PTRBN",
+    "aeronave_operador_categoria": "OPERADOR DE AERONAVE",
+    "aeronave_tipo_veiculo": "AVIÃƒO",
+    "aeronave_fabricante": "EMBRAER"
+  },
+  {
+    "codigo_ocorrencia": "2,01012E+14",
+    "aeronave_matricula": "PTKUK",
+    "aeronave_operador_categoria": "OPERADOR DE AERONAVE",
+    "aeronave_tipo_veiculo": "AVIÃƒO",
+    "aeronave_fabricante": "TWIN COMMANDER"
+  },
+  {
+    "codigo_ocorrencia": "2,01708E+14",
+    "aeronave_matricula": "PTKUK",
+    "aeronave_operador_categoria": "OPERADOR PARTICULAR",
+    "aeronave_tipo_veiculo": "AVIÃƒO",
+    "aeronave_fabricante": "TWIN COMMANDER"
+  },
+  {
+    "codigo_ocorrencia": "2,01511E+14",
+    "aeronave_matricula": "PPGSZ",
+    "aeronave_operador_categoria": "AEROCLUBE",
+    "aeronave_tipo_veiculo": "AVIÃƒO",
+    "aeronave_fabricante": "NEIVA INDUSTRIA AERONAUTICA"
+  }
+]) * aeronaves *
+
+* fatores_contribuintes *
+
+db.fatores_contribuintes.insert([
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "JULGAMENTO DE PILOTAGEM",
+    "fator_aspecto": "DESEMPENHO DO SER HUMANO",
+    "fator_condicionante": "OPERAÃ‡ÃƒO DA AERONAVE",
+    "fator_area": "FATOR OPERACIONAL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "MANUTENÃ‡ÃƒO DE AERONAVE",
+    "fator_aspecto": "DESEMPENHO DO SER HUMANO",
+    "fator_condicionante": "MANUTENÃ‡ÃƒO DA AERONAVE",
+    "fator_area": "FATOR OPERACIONAL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "SUPERVISÃƒO GERENCIAL",
+    "fator_aspecto": "DESEMPENHO DO SER HUMANO",
+    "fator_condicionante": "OPERAÃ‡ÃƒO DA AERONAVE",
+    "fator_area": "FATOR OPERACIONAL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "ATITUDE",
+    "fator_aspecto": "ASPECTO PSICOLÃ“GICO",
+    "fator_condicionante": "INDIVIDUAL",
+    "fator_area": "FATOR HUMANO"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "PROCESSO DECISÃ“RIO",
+    "fator_aspecto": "ASPECTO PSICOLÃ“GICO",
+    "fator_condicionante": "INDIVIDUAL",
+    "fator_area": "FATOR HUMANO"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "CAPACITAÃ‡ÃƒO E TREINAMENTO",
+    "fator_aspecto": "ASPECTO PSICOLÃ“GICO",
+    "fator_condicionante": "ORGANIZACIONAL",
+    "fator_area": "FATOR HUMANO"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "CULTURA ORGANIZACIONAL",
+    "fator_aspecto": "ASPECTO PSICOLÃ“GICO",
+    "fator_condicionante": "ORGANIZACIONAL",
+    "fator_area": "FATOR HUMANO"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "APLICAÃ‡ÃƒO DE COMANDOS",
+    "fator_aspecto": "DESEMPENHO DO SER HUMANO",
+    "fator_condicionante": "OPERAÃ‡ÃƒO DA AERONAVE",
+    "fator_area": "FATOR OPERACIONAL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "INSTRUÃ‡ÃƒO",
+    "fator_aspecto": "DESEMPENHO DO SER HUMANO",
+    "fator_condicionante": "OPERAÃ‡ÃƒO DA AERONAVE",
+    "fator_area": "FATOR OPERACIONAL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "fator_nome": "JULGAMENTO DE PILOTAGEM",
+    "fator_aspecto": "DESEMPENHO DO SER HUMANO",
+    "fator_condicionante": "OPERAÃ‡ÃƒO DA AERONAVE",
+    "fator_area": "FATOR OPERACIONAL"
+  }
+])
+
+* ocorrencias *
+db.ocorrencias.insert([
+  {
+    "codigo_ocorrencia": "2,01305E+14",
+    "ocorrencia_classificacao": "ACIDENTE",
+    "ocorrencia_tipo": "FALHA DO MOTOR EM VOO",
+    "ocorrencia_tipo_categoria": "FALHA OU MAU FUNCIONAMENTO DO MOTOR",
+    "ocorrencia_tipo_icao": "SCF-PP"
+  },
+  {
+    "codigo_ocorrencia": "2,01805E+14",
+    "ocorrencia_classificacao": "INCIDENTE",
+    "ocorrencia_tipo": "AERÃ“DROMO",
+    "ocorrencia_tipo_categoria": "AERÃ“DROMO",
+    "ocorrencia_tipo_icao": "ADRM"
+  },
+  {
+    "codigo_ocorrencia": "2,01605E+14",
+    "ocorrencia_classificacao": "INCIDENTE GRAVE",
+    "ocorrencia_tipo": "COLISÃƒO COM OBSTÃCULO DURANTE A DECOLAGEM E POUSO",
+    "ocorrencia_tipo_categoria": "COLISÃƒO COM OBSTÃCULO DURANTE A DECOLAGEM E POUSO",
+    "ocorrencia_tipo_icao": "CTOL"
+  },
+  {
+    "codigo_ocorrencia": "2,01311E+14",
+    "ocorrencia_classificacao": "INCIDENTE GRAVE",
+    "ocorrencia_tipo": "POUSO SEM TREM",
+    "ocorrencia_tipo_categoria": "CONTATO ANORMAL COM A PISTA",
+    "ocorrencia_tipo_icao": "ARC"
+  },
+  {
+    "codigo_ocorrencia": "2,01103E+14",
+    "ocorrencia_classificacao": "INCIDENTE",
+    "ocorrencia_tipo": "OUTROS",
+    "ocorrencia_tipo_categoria": "OUTROS",
+    "ocorrencia_tipo_icao": "OTHR"
+  },
+  {
+    "codigo_ocorrencia": "2,00902E+14",
+    "ocorrencia_classificacao": "INCIDENTE",
+    "ocorrencia_tipo": "PERDA DE CONTROLE NO SOLO",
+    "ocorrencia_tipo_categoria": "PERDA DE CONTROLE NO SOLO",
+    "ocorrencia_tipo_icao": "LOC-G"
+  },
+  {
+    "codigo_ocorrencia": "2,01604E+14",
+    "ocorrencia_classificacao": "INCIDENTE GRAVE",
+    "ocorrencia_tipo": "TRÃFEGO AÃ‰REO",
+    "ocorrencia_tipo_categoria": "PERDA DE SEPARAÃ‡ÃƒO / COLISÃƒO EM VOO",
+    "ocorrencia_tipo_icao": "MAC"
+  },
+  {
+    "codigo_ocorrencia": "2,01604E+14",
+    "ocorrencia_classificacao": "ACIDENTE",
+    "ocorrencia_tipo": "PERDA DE CONTROLE NO SOLO",
+    "ocorrencia_tipo_categoria": "PERDA DE CONTROLE NO SOLO",
+    "ocorrencia_tipo_icao": "LOC-G"
+  },
+  {
+    "codigo_ocorrencia": "2,01108E+14",
+    "ocorrencia_classificacao": "ACIDENTE",
+    "ocorrencia_tipo": "POUSO LONGO",
+    "ocorrencia_tipo_categoria": "EXCURSÃƒO DE PISTA",
+    "ocorrencia_tipo_icao": "RE"
+  },
+  {
+    "codigo_ocorrencia": "2,00912E+14",
+    "ocorrencia_classificacao": "ACIDENTE",
+    "ocorrencia_tipo": "PERDA DE CONTROLE EM VOO",
+    "ocorrencia_tipo_categoria": "PERDA DE CONTROLE EM VOO",
+    "ocorrencia_tipo_icao": "LOC-I"
+  }
+])
+
+* recomendacoes_seguranca *
+db.recomendacoes_seguranca.insert([
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "123/2012",
+    "recomendacao_dia_assinatura": "22/03/2012",
+    "recomendacao_dia_encaminhamento": "20/04/2012",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "122/2012",
+    "recomendacao_dia_assinatura": "22/03/2012",
+    "recomendacao_dia_encaminhamento": "20/04/2012",
+    "recomendacao_feedback": "26/11/2012"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "121/2012",
+    "recomendacao_dia_assinatura": "22/03/2012",
+    "recomendacao_dia_encaminhamento": "20/04/2012",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "120/2012",
+    "recomendacao_dia_assinatura": "22/03/2012",
+    "recomendacao_dia_encaminhamento": "20/04/2012",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "119/2012",
+    "recomendacao_dia_assinatura": "22/03/2012",
+    "recomendacao_dia_encaminhamento": "20/04/2012",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "118/2012",
+    "recomendacao_dia_assinatura": "22/03/2012",
+    "recomendacao_dia_encaminhamento": "20/04/2012",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "043/A/09",
+    "recomendacao_dia_assinatura": "09/03/2009",
+    "recomendacao_dia_encaminhamento": "NULL",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "042/A/09",
+    "recomendacao_dia_assinatura": "05/08/2009",
+    "recomendacao_dia_encaminhamento": "NULL",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "041/A/09",
+    "recomendacao_dia_assinatura": "05/08/2009",
+    "recomendacao_dia_encaminhamento": "NULL",
+    "recomendacao_feedback": "NULL"
+  },
+  {
+    "codigo_ocorrencia": "2,00901E+14",
+    "recomendacao_numero": "040/A/09",
+    "recomendacao_dia_assinatura": "05/08/2009",
+    "recomendacao_dia_encaminhamento": "NULL",
+    "recomendacao_feedback": "NULL"
+  }
+])

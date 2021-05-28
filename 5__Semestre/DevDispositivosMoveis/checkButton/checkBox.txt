@@ -1,0 +1,34 @@
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o seu produto" />
+
+    <CheckBox
+        android:id="@+id/chkarroz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Arroz (R$ 2,69)" />
+
+    <CheckBox
+        android:id="@+id/chkleite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Leite (R$ 5,00)" />
+
+    <CheckBox
+        android:id="@+id/chkcarne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Carne (R$ 9,70)" />
+
+    <CheckBox
+        android:id="@+id/chkfeijao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Feijão (R$ 2,30)" />
+
+    <Button
+        android:id="@+id/bttotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Total das compras" />

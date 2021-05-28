@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<title>Roundcube Webmail :: [SPAM] Você está esperando algo de bom acontecer?</title>
+<link rel="shortcut icon" href="skins/larry/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="skins/larry/print.min.css?s=1532894688" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="plugins/jqueryui/themes/larry/jquery-ui.css?s=1532894684">
+<script src="program/js/jquery.min.js?s=1532894710" type="text/javascript"></script>
+<script src="program/js/common.min.js?s=1532894688" type="text/javascript"></script>
+<script src="program/js/app.min.js?s=1532894688" type="text/javascript"></script>
+<script type="text/javascript">
+
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) 2005-2014 The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"mail","standard_windows":false,"locale":"pt_BR","devel_mode":null,"cookie_domain":"","cookie_path":"\/","cookie_secure":false,"skin":"larry","extwin":1,"refresh_interval":60,"session_lifetime":600,"action":"print","comm_path":".\/?_task=mail","user_id":"laUNqaxlIyqLs9na","compose_extwin":false,"date_format":"yy-mm-dd","browser_capabilities":{"pdf":"1","flash":"0","tiff":"0","webp":"0"},"uid":"68","safemode":false,"message_context":null,"sender":"iMailing \u003Cger9.z8@conteudorelevante.net.br\u003E","mailbox":"INBOX","username":"tic@morretes.pr.gov.br","permaurl":".\/?_task=mail&_action=show&_uid=68&_mbox=INBOX","delimiter":".","mimetypes":["text\/plain","text\/html","text\/xml","image\/jpeg","image\/gif","image\/png","image\/bmp","application\/x-javascript","application\/pdf","message\/rfc822"],"read_when_deleted":true,"display_next":true,"drafts_mailbox":"INBOX.Drafts","trash_mailbox":"INBOX.Trash","junk_mailbox":"INBOX.spam","optional_format":"text","blockedobjects":true,"request_token":"UkuUzEXsrurGWmcQzJ0ak6BJXtWbptko"});
+rcmail.add_label({"loading":"Carregando...","servererror":"Erro no Servidor!","connerror":"Erro de conex\u00e3o (Falha na comunica\u00e7\u00e3o com o servidor)!","requesttimedout":"Tempo da requisi\u00e7\u00e3o esgotado","refreshing":"Atualizando...","windowopenerror":"A janela popup foi bloqueada!","uploadingmany":"Enviando arquivos...","close":"Fechar","checkingmail":"Verificando se h\u00e1 novas mensagens...","deletemessage":"Excluir a mensagem","movemessagetotrash":"Mover a mensagem para a Lixeira","movingmessage":"Movendo mensagem(ns)...","deletingmessage":"Excluindo mensagem(ns)...","markingmessage":"Marcando mensagem(ns)...","replyall":"Responder a todos","replylist":"Responder para a lista"});
+</script>
+
+<script type="text/javascript" src="plugins/jqueryui/js/jquery-ui.min.js?s=1532894684"></script>
+<script type="text/javascript" src="plugins/jqueryui/js/i18n/jquery.ui.datepicker-pt-BR.js?s=1532894684"></script>
+</head>
+<body>
+
+<div id="header"><img src="skins/larry/images/roundcube_logo.png" id="toplogo" border="0" alt="Logo"></div>
+
+<div id="printmessageframe">
+<table class="headers-table"><tbody><tr><td class="header-title">Assunto</td>
+<td class="header subject">[SPAM] Você está esperando algo de bom acontecer?</td>
+</tr>
+<tr><td class="header-title">De</td>
+<td class="header from"><span class="adr">iMailing &lt;ger9.z8@conteudorelevante.net.br&gt;</span></td>
+</tr>
+<tr><td class="header-title">Remetente</td>
+<td class="header sender"><span class="adr">iMailing &lt;ger9.z8@conteudorelevante.net.br&gt;</span></td>
+</tr>
+<tr><td class="header-title">Para</td>
+<td class="header to"><span class="adr"> &lt;tic@morretes.pr.gov.br&gt;</span></td>
+</tr>
+<tr><td class="header-title">Data</td>
+<td class="header date">2019-09-18 05:53</td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="messagebody"><div class="message-htmlpart" id="message-htmlpart1" style="background-color: #353535"><!-- html ignored --><!-- head ignored --><!-- meta ignored --><div class="rcmBody"><p align="center"><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/visualizar_no_navegador?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br/imailing/imailing_201909b.htm" target="_blank" rel="noreferrer"><font color="#a0a0a0" size="1" face="Verdana"><b>visualize essa mensagem no seu navegador Internet</b></font></a><font color="#000000" size="1"><b></b></font></p><div align="center"><center><table border="0" cellpadding="0" cellspacing="0" width="650"><tr><td width="650" height="188"><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/peixe_fora_dagua?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img src="program/resources/blocked.gif" alt="Não dá para ficar esperando..." title="Não dá para ficar esperando..." border="0" style="display: block" width="650" height="188" /></a></td></tr><tr><td width="650" height="166"><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/aumente_as_vendas?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img src="program/resources/blocked.gif" alt="Parta para a ação e aumente as suas vendas" title="Parta para a ação e aumente as suas vendas" border="0" style="display: block" width="650" height="166" /></a></td></tr><tr><td width="650" height="85"><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/texto_2?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img src="program/resources/blocked.gif" alt="Contrate agora a sua Campanha Publicitária no iMailing - Nós Divulgamos e Você Vende" title="Contrate agora a sua Campanha Publicitária no iMailing - Nós Divulgamos e Você Vende" border="0" style="display: block" width="650" height="85" /></a></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="650"><tr><td>
+<a href="https://gatracking.appspot.com/UA-90853211-2/imailing_201909b/top_chamada?adv=imailing&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img border="0" src="program/resources/blocked.gif" width="650" height="168" alt="Aumente e Acelere as Vendas da sua Empresa" title="Aumente e Acelere as Vendas da sua Empresa" /></a></td></tr><tr><td>
+<a href="https://gatracking.appspot.com/UA-90853211-2/imailing_201909b/imagem_televendas_website?adv=imailing&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img border="0" src="program/resources/blocked.gif" width="650" height="128" alt="Divulgue e Venda para Todo o Brasil" title="Divulgue e Venda para Todo o Brasil" /></a></td></tr><tr><td>
+<a href="https://gatracking.appspot.com/UA-90853211-2/imailing_201909b/imagem_comparadores_analytics?adv=imailing&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img border="0" src="program/resources/blocked.gif" width="650" height="128" alt="Divulgue e Venda para Todo o Brasil" title="Divulgue e Venda para Todo o Brasil" /></a></td></tr><tr><td>
+<a href="https://gatracking.appspot.com/UA-90853211-2/imailing_201909b/imagem_lojas_remarketing?adv=imailing&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img border="0" src="program/resources/blocked.gif" width="650" height="120" alt="Divulgue e Venda para Todo o Brasil" title="Divulgue e Venda para Todo o Brasil" /></a></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="650"><tr><td><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/enviar_consulta?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br/site_novo/#quero_anunciar" target="_blank" rel="noreferrer"><img border="0" src="program/resources/blocked.gif" width="650" height="72" alt="Converse com o iMailing e Acelere Já as suas Vendas" title="Converse com o iMailing e Acelere Já as suas Vendas" /></a></td></tr><tr><td><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/banner_footer?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img border="0" src="program/resources/blocked.gif" width="650" height="149" alt="iMailing - Há 14 anos fazendo as melhores Campanhas de Email Marketing do Brasil" title="iMailing - Há 14 anos fazendo as melhores Campanhas de Email Marketing do Brasil" /></a></td></tr></table><br /><br /><br /><img border="0" src="program/resources/blocked.gif" /><br /><br /><p align="center"><br /><br /></p><table border="0" cellpadding="0" cellspacing="0" width="450" align="center"><tr><td width="450" height="97"><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/visitar_website?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img src="program/resources/blocked.gif" border="0" width="450" height="97" /></a></td></tr><tr><td width="450" height="14"><table border="0" cellpadding="0" cellspacing="0" width="450" height="14" align="left"><tr><td width="75" height="14"><img src="program/resources/blocked.gif" /></td><td width="274" height="14" valign="top" bgcolor="#0069e2"><!-- left ignored --><font style="font-family: Verdana, Arial, Helvetica, s ans-serif; font-size: 10px; color: #ffffff">tic@morretes.pr.gov.br</font></td><td width="101" height="14"><img src="program/resources/blocked.gif" /></td></tr></table></td></tr><tr><td width="450" height="60"><a href="https://gatracking.appspot.com/UA-90853211-2/anuncie_201909b/visitar_website?adv=anuncie&amp;cmp=2019_09b&amp;dgt=8D8E561C4A014AE4EAB64A5B707B3AB8AF10DA5C&amp;link=http://www.conteudorelevante.net.br" target="_blank" rel="noreferrer"><img src="program/resources/blocked.gif" border="0" width="450" height="60" /></a></td></tr></table></center></div></div></div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+jQuery.extend(jQuery.ui.dialog.prototype.options.position, {
+                using: function(pos) {
+                    var me = jQuery(this),
+                        offset = me.css(pos).offset(),
+                        topOffset = offset.top - 12;
+                    if (topOffset < 0)
+                        me.css('top', pos.top - topOffset);
+                    if (offset.left + me.outerWidth() + 12 > jQuery(window).width())
+                        me.css('left', pos.left - 12);
+                }
+            });
+$(document).ready(function(){ 
+rcmail.init();
+});
+</script>
+
+</body>
+</html>

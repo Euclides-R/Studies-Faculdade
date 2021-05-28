@@ -1,0 +1,61 @@
+/*  Formatação CSS3  */
+
+body {
+	margin: 0;
+	font-family: OCR A Std, monospace;
+	background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+#cabecalho {
+	width: 850px;
+	margin: 0 auto;
+}
+
+#logo {
+	height: 110px;
+	background: url(imagens/logo.png) no-repeat left top;
+}
+
+#topo {
+	height: 180px;
+	background: url(imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 20px;
+}
+
+/* Barra de navegação */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	margin: 0;
+	background: #b10333;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a{
+	color: white;
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 0.9em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(imagens/divisor.png);
+}
+
+#topo ul a:hover {
+	color: red;
+	font-size: 1em;
+	display: block;
+	padding: 0.6em 1em;
+	line-height: 2.1em;
+	text-decoration: none;
+	background: white;
+}
+

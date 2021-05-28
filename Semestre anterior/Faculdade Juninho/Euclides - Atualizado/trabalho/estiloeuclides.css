@@ -1,0 +1,104 @@
+body {
+	background: url(imagens/degrade.jpg);
+	text-align: center;
+	margin: 0;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+p {
+	text-align: justify;
+}
+
+img {
+	border-radius: 40px; 
+	border: 2px solid black;
+}
+
+a {
+	color: white;
+	text-decoration:none;
+}
+
+a.link {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 1px 15px;
+}
+
+a:hover {
+	color: gray;
+}
+
+.centralizar {
+	text-align: center;
+}
+
+.alinhar-equerdo {
+	text-align: right;
+}
+
+#principal {
+	padding: 1px;
+}
+
+#titulo {
+	text-align: left;
+	margin: 0;
+	background-image: linear-gradient( to bottom, blue, #5882FA);
+	color: white;
+	padding: 30px;
+}
+
+#cabecalho {
+	background: url(imagens/cabecalho.jpg);
+	height: 200px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#mae {
+	width: 1100px; 
+	margin: 0 auto;
+}
+
+#p1 {
+	border-radius: 40px;
+	background: #F65D5D;
+	padding: 10px;
+	width: 512px;
+	height: 530px;
+	margin: 5px;
+	float: left;
+}
+
+#p2 {
+	border-radius: 40px;
+	background: #C38D01;
+	padding: 10px;
+	width: 512px;
+	height: 530px;
+	margin: 5px;
+	float: right;
+}
+
+#p3 {
+	border-radius: 40px;
+	background: gray;
+	padding: 10px;
+	width: 512px;
+	height: 530px;
+	margin: 5px;
+	float: left;
+}
+
+#p4 {
+	border-radius: 40px;
+	background: #4682B4;
+	padding: 10px;
+	width: 512px;
+	height: 530px;
+	margin: 5px;
+	float: right;
+}

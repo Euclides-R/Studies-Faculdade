@@ -1,0 +1,50 @@
+/* * Conteúdo flexbox - Bloco de edição 01 * */
+
+#conteudo {
+	background: #dcdcdc;
+	height: 300px;
+	display: flex;
+	}
+
+	/*row|row-reverse|column|column-reverse--
+	flex-direction: row;
+
+	-- nowrap|wrap|wrap-reverse --
+	flex-wrap: nowrap;
+
+	-- flex-start|flex-end|center|space-between|space-around --	
+	justify-content: center;
+
+	-- stretch|center|flexstart|flex-end|baseline --
+	align-items: center;*/
+/*
+.ordem1 {
+	order: 1;		
+	}
+.ordem2 {
+	order: 2;		
+	}
+.ordem3 {
+	order: 3;		
+	}
+.ordem4 {
+	order: 4;	
+	}*/
+
+.item {
+	width: 100px;
+	height: 100px;
+	background: white;
+	border: 1px solid gray;
+	margin: 10px;
+	padding: 5px;
+
+	/*Define proporção de espaço ocupado por um item*/
+	flex-grow: 0;
+
+	/*Define a capacidade de redução de tamanho do item*/
+}
+
+.item1 {
+	/*flex-grow: 1;*/
+}

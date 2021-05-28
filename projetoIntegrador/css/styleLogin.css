@@ -1,0 +1,305 @@
+/* Responsive CODE */
+@media screen and (max-width: 720px) {
+  /* Menu */
+  .menu {
+    max-height: 50px !important;
+  }
+
+  .menu__link img {
+    width: 25px;
+  }
+
+  .logo p {
+    color: rgb(255, 255, 255);
+  }
+
+  .menu__link {
+    color: rgb(255, 255, 255) !important;
+    max-width: 40% !important;
+    font-size: 20px !important;
+    top: 0 !important;
+    right: 10px !important;
+  }
+
+  .menu__link img {
+    filter: brightness(100);
+  }
+
+  .menu__user {
+    border: 1px solid white;
+  }
+
+  .menu__link a {
+    color: rgb(255, 255, 255);
+  }
+
+  body {
+    background: black;
+  }
+  .box__orange {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important  ;
+    background-color: black !important;
+  }
+}
+
+/* corpo Login */
+
+.section__first {
+  margin: auto;
+  max-width: 1360px;
+  height: 668px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.box__orange {
+  border-radius: 0em 1em;
+  background-color: orange;
+  width: 104em;
+  height: 48.2em;
+  max-width: 1040px;
+  max-height: 482px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* position */
+  position: absolute;
+  top: 100px;
+}
+
+.box__orange--cad {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 6;
+
+  /* position */
+  position: relative;
+  left: 15%;
+}
+
+.box__orange--login {
+  color: rgb(255, 255, 255);
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+
+  /* position */
+  position: absolute;
+  top: 140px;
+  right: 10px;
+}
+
+.box__orange--cad h3,
+.box__orange--login h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 350;
+  margin: 20px;
+}
+
+.btn__cad,
+.btn__login {
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 50px;
+}
+
+.btn__cad:hover,
+.btn__login:hover {
+  font-weight: bold;
+}
+
+/* Login */
+.box__login {
+  padding: 70px;
+  background-color: black;
+  border-radius: 0em 1em;
+  width: 40em;
+  height: 58em;
+  max-width: 400px;
+  max-height: 580px;
+  opacity: 0;
+  transform: translate3d(0, 0, 0);
+
+  /* position */
+  position: absolute;
+  top: 50px;
+  right: 50%;
+}
+
+.box__login--animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  top: 50px;
+  right: 15%;
+  transition: 3s;
+}
+
+.login__area {
+  height: 50em;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.login__area--logo {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.login__area--inputs {
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__area--inputs input {
+  font-size: 16px;
+  padding-top: 5px;
+  border: none;
+}
+
+.login__area--user {
+  color: black;
+  border: 1px solid white;
+  border-radius: 1em 0px 1em;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__area--password {
+  color: black;
+  border: 1px solid yellow;
+  border-radius: 1em 0px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Sing up */
+.box__cad {
+  color: #fff;
+  padding: 30px;
+  background-color: black;
+  border-radius: 0em 1em;
+  width: 60em;
+  height: 58em;
+  max-width: 600px;
+  max-height: 580px;
+  flex-direction: column;
+  opacity: 0;
+  transform: translate3d(-3, 0, 0);
+
+  /* position */
+  position: relative;
+  top: 10px;
+  left: 200px;
+}
+
+.box__cad--animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 10px;
+  left: -200px;
+  transition: 3s;
+}
+
+.box__cad--align {
+  max-width: 57em;
+  max-height: 55em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.login__area--cadCamp {
+  color: black;
+  border-radius: 1em 0px 1em;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 15em;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__area--cadCamp input {
+  border: none;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.openAccount {
+  border: none;
+  border-radius: 1em 0em;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  width: 240px;
+  height: 50px;
+  background: #fdba12;
+  margin-top: 20px;
+  position: relative;
+  left: 275px;
+}
+
+.openAccount:hover {
+  background: white;
+  color: #fdba12;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Animation Class */
+@keyframes deslizar {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 200px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}

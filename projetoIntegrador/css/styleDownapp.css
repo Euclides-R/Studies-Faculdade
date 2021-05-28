@@ -1,0 +1,236 @@
+/* Responsive CODE */
+@media screen and (max-width: 720px) {
+  .back_up,
+  .back_down {
+    display: none;
+  }
+
+  .color__white {
+    color: black !important;
+  }
+
+  .circle {
+    display: none !important;
+  }
+
+  .div__downApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+  }
+
+  .div__downApp img {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    margin: auto !important;
+    width: 50% !important;
+  }
+
+  .position__div--1,
+  .position__div--2,
+  .position__div--3 {
+    width: 100%;
+    height: auto;
+    max-height: 140px;
+    margin: 20px;
+    max-width: 50% !important;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .position__div--1 h3,
+  .position__div--2 h3,
+  .position__div--3 h3,
+  .div__black a {
+    font-size: 40px !important;
+  }
+
+  .position__div--1 p,
+  .position__div--2 p,
+  .position__div--3 p {
+    font-size: 20px !important;
+  }
+
+  .text__title h3 {
+    max-width: 100% !important;
+  }
+
+  .div__pink--1,
+  .div__orange,
+  .div__black {
+    width: 100em !important;
+    height: 100em !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+
+  .text__title hr {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    width: 10vw;
+  }
+}
+
+/* Download APP */
+
+.corpo__apresentation--down {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.div__downApp {
+  position: relative;
+  max-width: 1360px;
+}
+
+.div__downApp img {
+  width: 250px;
+  position: absolute;
+  top: 15px;
+  right: 90px;
+}
+
+.back_up {
+  position: absolute;
+  right: 0;
+  background-color: #171617;
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+  max-height: 45%;
+  border-radius: 0px 0px 0px 950px;
+  z-index: 0;
+}
+
+.back_down {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #171617;
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 0px 650px 0px 0px;
+  z-index: -1;
+  -webkit-animation: animta__box--down 3s;
+}
+
+.corpo__principal--down {
+  max-width: 100%;
+  max-height: 100%;
+  color: #2c2c51;
+  clear: both;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.position__div--1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  max-width: 60%;
+
+  /* position */
+  position: absolute;
+  top: 75px;
+}
+
+.position__div--2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+
+  /* position */
+  position: absolute;
+  top: 15vw;
+  right: 450px;
+}
+
+.position__div--3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+
+  /* position */
+  position: absolute;
+  top: 30vw;
+  right: 0;
+}
+
+.div__pink--1 {
+  background-color: #fe388a;
+  color: #ffffff;
+  text-align: left;
+  max-width: 100%;
+  max-height: 15vw;
+  padding: 15px;
+  border-radius: 15px 0px 15px 0px;
+  font-size: 2vw;
+}
+
+.div__orange {
+  background-color: #fb5607;
+  color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  max-width: 60%;
+  max-height: 100px;
+  border-radius: 15px 0px 15px 0px;
+  font-size: 2vw;
+}
+
+.div__black {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px;
+  width: 10em;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px 0px 15px 0px;
+  font-size: 1.3vw;
+}
+
+.text__title h3 {
+  max-width: 20vw;
+  font-weight: 400;
+  font-size: 1.6vw;
+}
+
+.text__title hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 10vw;
+}
+
+.circle {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color__white {
+  color: #fff;
+}

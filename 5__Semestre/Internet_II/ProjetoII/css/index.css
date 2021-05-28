@@ -1,0 +1,141 @@
+/* Globais */
+
+::-webkit-scrollbar-track {
+  background-color: gray;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: gray;
+}
+::-webkit-scrollbar-thumb {
+  background: #62bd9a;
+}
+
+body {
+  margin: auto;
+  height: auto;
+  background-color: #f5f7fb;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  max-width: 1920px;
+  min-width: 1024px;
+  color: #2c2c51;
+  z-index: 1;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+}
+
+/* Css header */
+.head {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 5px;
+}
+
+.head__navbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: right;
+}
+
+.head__navbar a {
+  color: #62bd9a;
+  font-weight: bold;
+  padding-left: 20px;
+  right: 30px;
+  text-decoration: none;
+}
+
+.head__navbar--logo {
+  display: flex;
+  flex: 1;
+}
+
+.head__navbar--logo img {
+  max-width: 300px;
+}
+
+/* Css Body */
+
+.img-principal img {
+  max-width: 100%;
+}
+
+.section__buy {
+  max-height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__buy--show {
+  max-width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__buy--windowshow {
+  border-radius: 1em;
+  background: #b4b4b43b;
+  max-width: 250px;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.windowshow__img {
+  border-radius: 0.5em;
+  background-color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.windowshow__img img {
+  margin: auto;
+  max-width: 100%;
+}
+
+.windowshow__description {
+  border-radius: 0.3em;
+  background-color: white;
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* Text Css */
+.nameProduct {
+  color: #62bd9a;
+  font-size: 22px;
+}
+
+.descriptionsProduct {
+  color: #000000;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.valueProduct {
+  color: #000000;
+  font-size: 14px;
+}

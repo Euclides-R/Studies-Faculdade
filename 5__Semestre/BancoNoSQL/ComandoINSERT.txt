@@ -1,0 +1,9 @@
+db.myCollection.insert({title: 'MongoDB Guia Rapido',
+description: 'MongoDB - Guia rapido' , by: 'MongodbWise',
+url: 'http://www.mongodbwise.wordpress.com',
+tags: ['mongodb', 'database', 'NoSQL'], likes: 100})
+
+db.myCollection.insert({title: 'MongoDB hard mode',
+description: 'MongoDB end code' , by: 'No see codes',
+url: 'http://www.mongodbwise.wordpress.com',
+tags: ['mongodb', 'database', 'NoSQL'], likes: 76})

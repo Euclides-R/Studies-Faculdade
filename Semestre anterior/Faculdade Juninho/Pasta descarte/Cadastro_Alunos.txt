@@ -1,0 +1,48 @@
+	***CADASTRO DE ALUNOS***
+
+ID: 1
+Nome: Euclides Rodrigues Junior
+Nota 1: 9.8
+Nota 2: 9.5
+Nota 3: 8.5
+Maior Nota: 1
+Média das maiores notas: 9.26667
+Status: APROVADO
+
+ID: 2
+Nome: Marlos F. do Carmo
+Nota 1: 9.2
+Nota 2: 9.1
+Nota 3: 8.5
+Maior Nota: 1
+Média das maiores notas: 8.93333
+Status: APROVADO
+
+ID: 3
+Nome: Eduardo Cunha
+Nota 1: 6.8
+Nota 2: 3.5
+Nota 3: 2.5
+Maior Nota: 1
+Média das maiores notas: 4.26667
+Status: REPROVADO
+
+ID: 4
+Nome: Ricardo da Fonseca
+Nota 1: 9.2
+Nota 2: 7.8
+Nota 3: 6.5
+Maior Nota: 1
+Média das maiores notas: 7.83333
+Status: APROVADO
+
+ID: 5
+Nome: Em¡lio Santiago
+Nota 1: 9.5
+Nota 2: 8.5
+Nota 3: 6.3
+Maior Nota: 1
+Média das maiores notas: 8.1
+Status: APROVADO
+
+Médias Ordenadas

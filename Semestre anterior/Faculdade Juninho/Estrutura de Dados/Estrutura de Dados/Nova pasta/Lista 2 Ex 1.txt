@@ -1,0 +1,23 @@
+	***CADASTRO DE ALUNOS***
+
+ID: 1
+Nome: Bruno Serrano
+Nota 1: 7.1
+Nota 2: 3.3
+Nota 3: 3.2
+Maior Nota: 7.1
+Média das maiores notas: 5.2
+Status: REPROVADO
+
+ID: 2
+Nome: ALine Bueno de Camargo Serran
+Nota 1: 0
+Nota 2: 0
+Nota 3: 0
+Maior Nota: 0
+Média das maiores notas: 0
+Status: REPROVADO
+
+Médias Ordenadas
+ID: 1| Média: 5.2
+ID: 2| Média: 0

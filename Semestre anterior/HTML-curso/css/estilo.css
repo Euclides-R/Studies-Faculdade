@@ -1,0 +1,106 @@
+/* -- Transições -- 
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+
+#caixa:hover {
+	width: 300px;
+	background: yellow;
+}
+
+/* -- ANIMANÇÕES -- 
+@keyframes animacao-caixa {
+	from {/*Estado inicial
+		width: 200px;
+		border-radius: 5px
+		font-size: 11px;
+	}
+	to {/*Estado final
+		width: 300px;
+		border-radius: 50px;
+		font-size: 16px;		
+	}
+}
+/* CADA NAVEGADOR PRECISA SER CONFIGURADO DENTRO DO CÓDIGO */
+/*a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover {
+	/*animation-name: animacao-caixa;
+	animation-duration: 10s;
+	animation-delay: 3s;
+	animation-interation-count: 2;
+	animation-direction: alternate;
+	animation: animacao-caixa 3s 0s 2 alternate;
+}
+
+#anime {
+	padding: 5px;
+	width: 200px;
+	height: 60px;
+	background: red;
+	border-radius: 5px;
+}*/
+
+/* -- SOMBRAS --*/
+/*#shadow {
+	width: 300px;
+	height: 300px;
+	padding: 8px;]
+	margin: 20px;
+	background: #009670;
+	box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.6);
+	/*^Sombreamento em caixa = horizontal - vertical - foco - +expansão da sombra
+}
+
+#shadow h1 {
+	color: white;
+	text-shadow: 2px 3px 3px rgba(0,0,0,0.8);
+	/*^Sombreamento - horizontal - vertical - foco - cor
+	/* Se os valores fossem negativos seria o lado oposto do padrão 
+}*/
+
+/* -- GRADIENTE -- */
+/*#box {
+	width: 300px;
+	height: 300px;
+	padding: 25px;
+	/*background: url("../imagens/camera.png") no-repeat;
+	background: linear-gradient(#ffffff, #ffebe6, #ff704d);
+}
+
+#box1 {
+	width: 250px;
+	height: 30px;
+	padding: 5px;
+	background: rgba(77, 77, 77, 0.2);
+	border-radius: 8px;
+}
+*/
+
+/* -- ARREDONDAMENTO -- */
+/*#caixa {
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	margin: 10px;
+	background: #b9c941;
+	border-radius: 10px 50px 80px 110px;}
+
+body {
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	margin: 0;
+}
+
+p {
+	text-align: justify;
+}*/
+
+/* --- Header, Nav e Footer --- */

@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	size: 12px;
+	background: red;
+}
+
+a:hover {
+	size: 14px;
+	background: gray;
+	padding: 15px;
+}
+
+#detalhe-topo {
+	text-align: right;
+	display: block;
+}
+
+#corpoca {
+	margin: 0 auto;
+	width: 720px;
+}
+
+#cabecalho {
+	margin: 0px;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 230px;
+	background: url(../imagens/fundo.png) bottom;
+	border: 1px solid red;
+}
+
+#titulo {
+	text-align: left;
+}
+
+#fundolink {
+	text-align: left;
+	margin: 0 auto;
+	padding: 10px;
+	height: 30px;
+}
